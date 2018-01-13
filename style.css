@@ -6,7 +6,11 @@
     -o-background-size: cover;
     height: 88%;
 }
+.logo {
+  max-width: 135px;
 
+  float: left;
+}
 .name {
 position: relative;
   color: white;
@@ -76,6 +80,10 @@ a:hover {
   margin-top: 40px;
 }
 
+.projects-div {
+  padding-bottom: 100px;
+}
+
 
 .project-info {
   font-style: normal;
@@ -115,4 +123,177 @@ h2 {
   color: rgba(51,51,51,1);
   text-align: center;
   /*text-shadow: 3px 3px #93a4aa;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  background-color: rgba(51,51,51,1);
+  height: 140px;
+  padding-top: 20px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.contact-icon-div {
+  margin-top: -10px;
+}
+
+
+.contact-icon {
+  margin-top: -10px;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+#github-icon {
+  max-width: 38px;
+}
+
+.contact-icon:hover {
+  opacity: 1;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+
+.contact-icon:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.project:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#email-icon {
+  max-width: 40px;
+}
+
+#linkedin-icon {
+  max-width: 40px;
+}
+
+.contact-text {
+  color: #c0c2c6;
+ font-family: 'EB Garamond', serif;
+ font-style: italic;
+  font-size: 26px;
+  text-align: center;
+}
+.footer-message-div {
+
+}
+.footer-message {
+margin-top: 80px;
+  text-transform: uppercase;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #c0c2c6;
+}
+.line {
+  opacity: 0.5;
+  position: absolute;
+  color: #c0c2c6;
+  margin-left: 625px;
+  margin-top: 60px;
+}
+.footer-email {
+  max-width: 100%;
+  position: absolute;
+  text-decoration: none;
+  font-family: Arial;
+  margin-top: 40px;
+  margin-left: -180px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #c0c2c6;
+  padding: 10px;
+}
+.footer-email:hover {
+  color: black;
+border-radius: 50px;
+background-color: white;
+}
+footer {
+  background-color: rgba(31,31,31,1);
+  max-width: 100%;
+  height: 190px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.resume-container{
+  height: 150px;
+  background-color: rgba(31,31,31,1);
+}
+
+.resume-div {
+  margin-top: 75px;
+  margin-left: 215px;
+}
+
+iframe {
+  max-width: 100%;
+}
+.spacer {
+  height: 75px;
+}
+
+.resume-logo {
+width: 135px;
+max-width: 100%;
+margin-top: 25px;
+}
+
+.resume-nav {
+  margin-top: -75px;
+margin-right: 30px;
+}
+
+li {
+  font-family: Arial;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+  display: inline-flex;
+  margin-right: 17px;
+  padding: 10px;
+  border-radius: 50px;
+  float: right;
+}
+
+nav li:hover {
+  color: black;
+border-radius: 50px;
+background-color: white;
 }
