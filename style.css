@@ -4,7 +4,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     max-width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .logo {
   max-width: 135px;
@@ -21,8 +21,11 @@
 }
 
 a.res-link {
-color: black;
+font-weight: 900;
+color: lightgrey;
 font-family: 'EB Garamond', serif;
+padding: 5px;
+background: linear-gradient(to bottom right, teal, purple);
 }
 
 .heading {
