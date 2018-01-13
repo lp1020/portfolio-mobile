@@ -2,9 +2,9 @@
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/header.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
     height: 88%;
+    max-width: 100%;
 }
 .logo {
   max-width: 135px;
@@ -262,9 +262,6 @@ footer {
   margin-left: 215px;
 }
 
-iframe {
-  max-width: 100%;
-}
 .spacer {
   height: 75px;
 }
