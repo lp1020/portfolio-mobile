@@ -23,11 +23,9 @@
 a.res-link {
 font-weight: 900;
 font-size: 20px;
-color: lightgrey;
+color: teal;
 border-radius: 50px;
 font-family: 'EB Garamond', serif;
-padding: 5px;
-background-color: teal;
 }
 
 .heading {
