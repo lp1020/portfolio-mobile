@@ -1,14 +1,14 @@
 .full {
-    background: linear-gradient(to bottom right, teal, purple);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     max-width: 100%;
     padding-bottom: 100px;
 }
 .logo {
   max-width: 100px;
-
+  margin-top: 15px;
   float: left;
 }
 .name {
