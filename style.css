@@ -21,8 +21,11 @@
 }
 
 a.res-link {
-color: black;
+font-weight: 900;
+color: lightgrey;
 font-family: 'EB Garamond', serif;
+padding: 5px;
+background: linear-gradient(to bottom right, teal, purple);
 }
 
 .heading {
