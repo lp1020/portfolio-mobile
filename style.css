@@ -1,10 +1,10 @@
 .full {
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/header.jpg') no-repeat center center fixed;
+    background: linear-gradient(to bottom right, teal, purple);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 100%;
     max-width: 100%;
+    padding-bottom: 200px;
 }
 .logo {
   max-width: 135px;
@@ -12,13 +12,12 @@
   float: left;
 }
 .name {
-position: relative;
   color: white;
   font-size: 70px;
   font-family: Arial;
   font-weight: 800;
   letter-spacing: 3px;
-  margin-top: 225px;
+  margin-top: 200px;
 }
 
 a.res-link {
