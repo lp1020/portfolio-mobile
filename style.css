@@ -1,0 +1,118 @@
+.full {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 88%;
+}
+
+.name {
+position: relative;
+  color: white;
+  font-size: 70px;
+  font-family: Arial;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-top: 225px;
+}
+
+.heading {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.nav {
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.summary {
+  color: #626e82;
+   font-family: 'Old Standard TT', serif;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.section {
+ font-family: 'EB Garamond', serif;
+ font-style: italic;
+ color: #524e4d;
+  font-size: 26px;
+  margin-top: 75px;
+}
+
+.skill-icon {
+  width: 50%;
+}
+
+.skill-div {
+  margin-top: 25px;
+}
+
+.skill-name {
+  margin-top: 15px;
+  font-weight: 900;
+  color: #524e4d;
+  font-family: 'Old Standard TT', serif;
+  font-size: 17.5px;
+}
+
+.project {
+  width: 325px;
+  border-radius: 6px;
+}
+
+.project-container {
+  margin-top: 40px;
+}
+
+
+.project-info {
+  font-style: normal;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 700;
+  color: #524e4d;
+  margin-top: 25px;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.gh-icon {
+  width: 40px;
+  max-width: 100%;
+  opacity: 0.6;
+  margin-right: 5px;
+}
+
+.gh-icon:hover {
+  opacity: 1;
+}
+.www-icon {
+  width: 40px;
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+.www-icon:hover {
+  opacity: 1;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 26px;
+  color: rgba(51,51,51,1);
+  text-align: center;
+  /*text-shadow: 3px 3px #93a4aa;*/
+}
