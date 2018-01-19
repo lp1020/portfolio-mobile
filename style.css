@@ -17,7 +17,7 @@
   font-family: Arial;
   font-weight: 800;
   letter-spacing: 3px;
-  margin-top: 150px;
+  margin-top: 160px;
 }
 
 a.res-link {
@@ -47,7 +47,7 @@ a:hover {
   color: #626e82;
    font-family: 'Old Standard TT', serif;
   font-style: italic;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1px;
   margin-top: 30px;
   padding: 15px;
@@ -58,7 +58,13 @@ a:hover {
  font-style: italic;
  color: #524e4d;
   font-size: 26px;
-  margin-top: 75px;
+  margin-top: 50px;
+}
+
+#skills {
+padding-top: 2px;
+padding-bottom: 50px;
+  background-color: #E2E3E5;
 }
 
 .skill-icon {
@@ -234,21 +240,14 @@ margin-top: 80px;
 }
 .footer-email {
   max-width: 100%;
-  position: absolute;
-  text-decoration: none;
   font-family: Arial;
-  margin-top: 40px;
-  margin-left: -180px;
+  margin-top: 10px;
   font-size: 13px;
   letter-spacing: 2px;
   color: #c0c2c6;
   padding: 10px;
 }
-.footer-email:hover {
-  color: black;
-border-radius: 50px;
-background-color: white;
-}
+
 footer {
   background-color: rgba(31,31,31,1);
   max-width: 100%;
@@ -295,4 +294,103 @@ nav li:hover {
 border-radius: 50px;
 background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    margin-left: -15px;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+font-style: italic;
+    padding: 2px 16px;
+    background-color: rgba(51,51,51,1);
+ font-family: 'EB Garamond', serif;
+}
+
+.modal-header h2 {
+  color: #c0c2c6;
+}
+
+.modal-header span {
+  color: #c0c2c6;
+}
+
+
+.modal-body {padding: 2px 16px;
+margin-top: 20px;}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
 

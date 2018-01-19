@@ -16,7 +16,7 @@
 <img src="images/logo-white.png" alt="Home" class="logo"/>
 </a>
   <button class="w3-button w3-xlarge w3-right" style="color:white;margin-top:30px;margin-right:2px;" onclick="openRightMenu()">&#9776;</button>
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="background-color:rgba(31,31,31,1);display:none;right:0;" id="rightMenu">
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="background-color:rgba(31,31,31,1); opacity: .9;display:none;right:0;" id="rightMenu">
   <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large" style="color:white">&times;</button>
   <a href="#skills" class="w3-bar-item w3-button nav" style="color:white;margin-top: 15px;">SKILLS</a>
   <a href="#projects" class="w3-bar-item w3-button nav" style="color:white;margin-top: 15px;">PROJECTS</a>
@@ -150,14 +150,37 @@
   </div>
 </div>
 
+
 <section id="contact">
   <div class="container-fluid contact">
     <div class="contact-icon-div text-center">
       <p class="contact-text">GET IN TOUCH</p>
     <a href="https://github.com/lp1020" target="_blank"><img src="images/github-icon.png" class="contact-icon" id="github-icon"/></a>
-    <a href="mailto:lianapenn@gmail.com"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <a id="myBtn"><img src="images/email-2.png" class="contact-icon" id="email-icon"/></a>
+    <div id="myModal" class="container-fluid modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>LET'S CHAT</h2>
+    </div>
+    <div class="modal-body">
+      <form method="POST" action="http://formspree.io/lianapenn@gmail.com">
+  <div class="form-group"><input class="form-control modal-input" type="email" name="email" placeholder="Your email"></div>
+  <div class="form-group"><textarea class="form-control modal-message" name="message" placeholder="Your message"></textarea></div>
+  <button class="btn btn-default modal-button" type="submit">Send</button>
+</form>
+    </div>
+    <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+  </div>
+
+</div>
+
     <a href="https://www.linkedin.com/in/liana-penn/" target="_blank"><img src="images/linkedin.png" class="contact-icon" id="linkedin-icon"/></a>
-    <a href="mailto:lianapenn@gmail.com" class="footer-email">LIANAPENN@GMAIL.COM</a>
+    <div class="footer-email">LIANAPENN@GMAIL.COM</div>
   </div>
   </div>
 <footer>
@@ -166,14 +189,7 @@
 </div>
 </footer>
 </section>
-<script>
-function openRightMenu() {
-    document.getElementById("rightMenu").style.display = "block";
-}
-function closeRightMenu() {
-    document.getElementById("rightMenu").style.display = "none";
-}
-</script>
+<script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
