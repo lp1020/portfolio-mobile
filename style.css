@@ -17,7 +17,7 @@
   font-family: Arial;
   font-weight: 800;
   letter-spacing: 3px;
-  margin-top: 160px;
+  margin-top: 170px;
 }
 
 a.res-link {
@@ -61,11 +61,7 @@ a:hover {
   margin-top: 50px;
 }
 
-#skills {
-padding-top: 2px;
-padding-bottom: 50px;
-  background-color: #E2E3E5;
-}
+
 
 .skill-icon {
   width: 60%;
