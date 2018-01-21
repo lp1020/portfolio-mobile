@@ -42,15 +42,33 @@ font-family: 'EB Garamond', serif;
 a:hover {
   text-decoration: none;
 }
+.intro {
+  color: rgba(51,51,51,1);
+   font-family: 'Old Standard TT', serif;
+  font-size: 26px;
+  margin-top: 30px;
+  padding: 10px;
+}
 
 .summary {
   color: #626e82;
    font-family: 'Old Standard TT', serif;
-  font-style: italic;
-  font-size: 22px;
+  font-size: 23px;
   letter-spacing: 1px;
-  margin-top: 30px;
   padding: 15px;
+}
+#about {
+  background-color: #c0c2c6;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.about-me {
+  font-family: 'EB Garamond', serif;
+  font-size: 24px;
+  padding: 10px;
+  color: white;
+  margin-top: 15px;
 }
 
 .section {
@@ -79,6 +97,13 @@ a:hover {
   font-size: 17.5px;
 }
 
+#projects {
+  background-color: #c0c2c6;
+  padding-top: 5px;
+  margin-top: 40px;
+
+}
+
 .project {
   width: 325px;
   border-radius: 6px;
@@ -97,8 +122,9 @@ a:hover {
   font-style: normal;
   font-family: 'Old Standard TT', serif;
   font-weight: 700;
-  color: #524e4d;
+  color: rgba(31,31,31,1);
   margin-top: 25px;
+  font-size: 16px;
 }
 
 .icon-container {
