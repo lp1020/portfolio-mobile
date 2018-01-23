@@ -101,6 +101,40 @@ a:hover {
   font-size: 17.5px;
 }
 
+#adobe {
+  margin-top: 30px;
+}
+
+#git {
+margin-top: 40px;
+}
+#html {
+  margin-top: 5px;
+}
+#invision {
+margin-top: 10px;
+}
+
+#marvel {
+margin-top: 50px;
+}
+
+#node {
+margin-top: 40px;
+}
+
+#responsive {
+  margin-top: 30px;
+}
+
+#ruby {
+margin-top: 15px;
+}
+
+#unix {
+  margin-top: 30px;
+}
+
 #projects {
   padding-top: 5px;
   margin-top: 10px;
