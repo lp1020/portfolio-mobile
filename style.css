@@ -105,7 +105,8 @@ a:hover {
 
 }
 #css {
-width: 45%;
+width: 55%;
+margin-top: -10px;
 
 }
 
@@ -135,28 +136,14 @@ margin-top: 35px;
 }
 
 #responsive {
+ width: 65%;
   margin-top: 10px;
 }
 
-#react {
-  width: 55%;
-}
-
-#ruby {
-width: 50%;
-margin-top: 15px;
-}
-
-#rails {
-  width: 55%;
-}
-
-#sketch {
-  width: 50%;
-}
 
 #unix {
-  margin-top: 15px;
+width: 70%;
+  margin-top: 10px;
 }
 
 #projects {
