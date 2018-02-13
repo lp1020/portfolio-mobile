@@ -1,3 +1,14 @@
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myTopBtn").style.display = "block";
+    } else {
+        document.getElementById("myTopBtn").style.display = "none";
+    }
+}
+
+
 function openRightMenu() {
     document.getElementById("rightMenu").style.display = "block";
 }
@@ -27,6 +38,12 @@ $('a[href^="#"]').click(function () {
     }, 800);
 
     return false;
+});
+
+$('#myTopBtn').click(function(){
+    $root.animate({
+        scrollTop: 0
+    }, 800);
 });
 
 // When the user clicks on <span> (x), close the modal
