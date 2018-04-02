@@ -133,29 +133,34 @@ a:hover {
 
 }
 #css {
-width: 57%;
-
+width: 54%;
+height: 40%;
 }
 
 #git {
-margin-top: 10px;
+padding-top: 120px;
 }
+
+#github {
+  padding-top: 40px;
+}
+
+
 #html {
   width: 60%;
+  height: 40vh;
 }
-#invision {
 
-}
 #javascript {
   width: 50%;
   margin-top: 5px;
 }
 #marvel {
-margin-top: 40px;
+padding-top: 150px;
 }
 
 #node {
-margin-top: 35px;
+margin-top: 105px;
 }
 
 #postgresql {
@@ -164,11 +169,15 @@ margin-top: 35px;
 
 #responsive {
  width: 65%;
-  margin-top: 10px;
+  margin-top: 60px;
 }
 
+#spring {
+  padding-top: 140px;
+}
 
 #unix {
+  padding-top: 60px;
 width: 70%;
 }
 
